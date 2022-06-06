@@ -9,7 +9,7 @@ const ready = (fn) => {
 
 const onDocumentReady = () => {
     let authenticity = new Authenticity(
-        "yALykiHliT",
+        "olgaPd7swU",
         "https://jrstvridwqdmptait3ic7v4f7u0zubeg.lambda-url.us-east-2.on.aws/",
         "both"
     );
