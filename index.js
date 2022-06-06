@@ -13,6 +13,6 @@ const onDocumentReady = () => {
         "https://jrstvridwqdmptait3ic7v4f7u0zubeg.lambda-url.us-east-2.on.aws/",
         "both"
     );
-    authenticity.init('onBlur', {'country_code': '','email': '#imp_email', 'phone': '#imp_phone', 'form': '#form'});
+    authenticity.init('onChange', {'country_code': '','email': '#imp_email', 'phone': '#imp_phone', 'button': '#button'});
 }
 ready(onDocumentReady);
