@@ -9,10 +9,10 @@ const ready = (fn) => {
 
 const onDocumentReady = () => {
     let authenticity = new Authenticity(
-        "olgaPd7swU",
+        "GbQmWoPbjt",
         "https://jrstvridwqdmptait3ic7v4f7u0zubeg.lambda-url.us-east-2.on.aws/",
         "both"
     );
-    authenticity.init('onChange', {'country_code': '','email': '#imp_email', 'phone': '#imp_phone', 'button': '#button'});
+    authenticity.init('submit', {'country_code': '','email': '#imp_email', 'phone': '#imp_phone', 'form': '#form'});
 }
 ready(onDocumentReady);
