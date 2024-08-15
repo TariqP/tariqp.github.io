@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
@@ -9,27 +9,33 @@
     <title>TestPage</title>
 </head>
 <body>
-<form id="form">
-	<label for="name">Phone:</label>
-	<input type="text" class="text" name="cf_name" id="imp_phone" />
-	<label for="email">email:</label>
-	<input type="text" class="text" name="cf_email" id="imp_email" />
-	<label for="text">Message:</label>
-	<textarea class="text" name="cf_message" id="message"></textarea>
-	<input type="submit" class="submit" value="Send" />
-</form>
+    <form id="tarik_form">
+        <label for="name">Phone:</label>
+        <div>
+            <select id="country_code" name="country_code">
+                <option value="+1">USA (+1)</option>
+                <option value="+387">Bosnia (+387)</option>
+                <option value="+46">Sweden (+46)</option>
+            </select>
+            <input type="text" class="text" name="cf_name" id="tarik_imp_phone" />
+        </div>
+        <label for="email">Email:</label>
+        <input type="text" class="text" name="cf_email" id="tarik_imp_email" />
+        <label for="text">Message:</label>
+        <textarea class="text" name="cf_message" id="message"></textarea>
+        <input type="submit" class="tarik-submit" value="Send" />
+    </form>
 
-<form id="inv_form">
-	<label for="name">Phone:</label>
-	<input type="text" class="text" name="cf_name" id="inv_imp_phone" />
-	<label for="email">email:</label>
-	<input type="text" class="text" name="cf_email" id="inv_imp_email" />
-	<label for="text">Message:</label>
-	<textarea class="text" name="cf_message" id="inv_message"></textarea>
-	<input type="submit" class="submit" id="inv_submit" value="Send" />
-</form>
+    <form id="inv_form">
+        <label for="name">Phone:</label>
+        <input type="text" class="text" name="cf_name" id="inv_imp_phone" />
+        <label for="email">Email:</label>
+        <input type="text" class="text" name="cf_email" id="inv_imp_email" />
+        <label for="text">Message:</label>
+        <textarea class="text" name="cf_message" id="inv_message"></textarea>
+        <input type="submit" class="submit" id="inv_submit" value="Send" />
+    </form>
 
-    </div>
     <div class="grid-2">
         <div class="section-1">
             <i class="fas fa-code fa-5x white"></i>
@@ -42,9 +48,8 @@
         <div class="section-2">
             <h2>About</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas sint et nihil iusto eius nostrum sit error, repellat optio quisquam! Magnam dolore iusto cumque. Nostrum error iste neque maiores.</p>
-            <h2>Experiessnce</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis in maiores autem quidem
-
+            <h2>Experience</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis in maiores autem quidem obcaecati excepturi! Cupiditate eaque itaque magni voluptatibus neque nobis est dolor? Atque sunt minus ipsa asperiores. At.</p>
             <h2>Skills</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis in maiores autem quidem obcaecati excepturi! Cupiditate eaque itaque magni voluptatibus neque nobis est dolor? Atque sunt minus ipsa asperiores. At.</p>
             <h2>Projects</h2>
@@ -55,7 +60,7 @@
             <a href="#">Project 5</a>
             <h2>Contact</h2>
             <iframe data-src="https://www.youtube.com/watch?v=rX3M1oYGj_g" frameborder="0"
-sp-consent="Youtube" allowfullscreen="allowfullscreen"> </iframe>
+            sp-consent="Youtube" allowfullscreen="allowfullscreen"> </iframe>
             <p>myEmail@email.com</p>
         </div>
     </div>
